@@ -1,0 +1,123 @@
+/* Layout */
+/* Mobile Layout */
+@media (max-width: 375px) {
+  .bg-img {
+    max-width: 100%; /* Make the image responsive to the screen width */
+    width: auto; /* Reset the width */
+    height: auto; /* Allow the image to maintain its aspect ratio */
+    border-top-left-radius: 0; /* Adjust the border radius if needed */
+    border-bottom-left-radius: 0; /* Adjust the border radius if needed */
+  }
+  .box1 {
+    border-top-left-radius: 0; /* Adjust the border radius if needed */
+    border-bottom-left-radius: 0; /* Adjust the border radius if needed */
+  }
+  
+}
+
+  
+  /* Desktop Layout */
+  @media (min-width: 1440px) {
+    /* Add your desktop-specific styles here */
+  }
+  
+  /* Colors */
+  :root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+  }
+  
+  /* Typography */
+  /* Body Copy */
+  p {
+    font-size: 14px;
+  }
+  
+  /* Fonts */
+  /* Montserrat */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+  /* Fraunces */
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+  
+  
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #F3EAE3;
+}
+.centered-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    height: auto;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+.box1{
+  border-top-left-radius: 15px;  
+}.box2{
+
+}
+.bg-img{
+  width: 270px;
+
+  height: 400px;
+  /* background-size: auto; */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  object-fit: cover;
+}
+.box2{
+  width: 270px;
+    padding: 30px;
+    background-color:white;
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+.text1{
+    text-transform: capitalize;
+    font-family: 'Fraunces', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase !important;
+    font-size: 12px;
+}
+.head1{
+  font-family: 'Fraunces', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 27px;
+  width: 100%;
+  display: block;
+  ;
+}
+.pad-right{
+  
+}
+.rate-text{
+  font-size: 30px;
+  font-weight: 900;
+  color:var(--Dark-cyan);
+}
+.rate-text-strike{
+  font-size: 10px;
+}
+.cart-btn{
+  width: 100% !important;
+  border:0px !important;
+  color:white;
+  background-color: var(--Dark-cyan);
+  border-radius: 10px;
+  padding:10px;
+  font-size: 13px;
+}
+.margin-right{
+  margin-right: 7px;
+}
